@@ -1,3 +1,5 @@
+Queries are done on SQLite
+
 /* looking at death percentage */
 
 select location, date, total_cases, total_deaths, (total_deaths/total_cases)*100 as DeathPercentage
